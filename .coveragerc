@@ -1,0 +1,23 @@
+[run]
+source =
+    base
+    client
+    contact
+    cooldeal
+    customer
+    shop
+    site_config
+    website
+omit =
+    */migrations/*
+    */tests.py
+    */tests/*
+    */settings.py
+    */urls.py
+    */wsgi.py
+    */asgi.py
+    manage.py
+
+[report]
+show_missing = True
+skip_covered = True
